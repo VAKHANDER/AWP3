@@ -39,4 +39,52 @@
 </form>
 <p align="center">Победа: ${Win}</p>
 </body>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+    }
+
+    h1, h3 {
+        color: #333;
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 50%;
+        margin: 20px auto;
+    }
+
+    table, th, td {
+        border: 2px solid #333;
+    }
+
+    th, td {
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    th button, td button {
+        width: 100%;
+        height: 100%;
+        font-size: 20px;
+        font-weight: bold;
+        color: #333;
+        background-color: #fff;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+
+    th button:hover, td button:hover {
+        background-color: #e0e0e0;
+    }
+
+    p {
+        color: #008000;
+        font-weight: bold;
+    }
+</style>
 </html>
